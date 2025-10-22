@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.fabiosimones</groupId>
-	<artifactId>santander-dev</artifactId>
+	<artifactId>santanderdev</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>santander-dev</name>
 	<description>DIO</description>
@@ -76,7 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.5.6</version> <!-- ajuste conforme a versão do seu projeto -->
                 <configuration>
-                    <mainClass>com.santander-dev.SantanderDevApplication</mainClass>
+                    <mainClass>com.santander_dev.SantanderDevApplication</mainClass>
                 </configuration>
             </plugin>
 
