@@ -1,4 +1,4 @@
-package dev.fabiosimones.santander_dev.controller.exception;
+package dev.fabiosimones.santander_dev.domain.controller.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

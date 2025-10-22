@@ -1,4 +1,4 @@
-package dev.fabiosimones.santander_dev.controller;
+package dev.fabiosimones.santander_dev.domain.controller;
 
 import dev.fabiosimones.santander_dev.domain.model.User;
 import dev.fabiosimones.santander_dev.domain.service.UserService;
