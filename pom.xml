@@ -76,7 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.5.6</version> <!-- ajuste conforme a versão do seu projeto -->
                 <configuration>
-                    <mainClass>com.santander_dev.SantanderDevApplication</mainClass>
+                    <mainClass>com.dev.fabiosimones.santander_dev.SantanderDevApplication</mainClass>
                 </configuration>
             </plugin>
 
