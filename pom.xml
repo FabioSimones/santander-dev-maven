@@ -69,6 +69,28 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+            <!-- Plugin do Spring Boot -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.5.6</version> <!-- ajuste conforme a versão do seu projeto -->
+                <configuration>
+                    <mainClass>com.santander-dev-maven.SantanderDevApplication</mainClass>
+                </configuration>
+            </plugin>
+
+            <!-- Plugin opcional para empacotar corretamente (caso ainda não tenha) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>17</source> <!-- ou 21, dependendo da versão Java usada -->
+                    <target>17</target>
+                </configuration>
+            </plugin>
+
 		</plugins>
 	</build>
 
