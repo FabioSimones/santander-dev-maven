@@ -23,6 +23,14 @@ public class Account {
 
     public Account(){}
 
+    public Account(Long id, String number, String agency, BigDecimal balance, BigDecimal limit) {
+        this.id = id;
+        this.number = number;
+        this.agency = agency;
+        this.balance = balance;
+        this.limit = limit;
+    }
+
     public Long getId() {
         return id;
     }

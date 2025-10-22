@@ -7,4 +7,11 @@ import jakarta.persistence.Id;
 
 @Entity(name = "tb_feature")
 public class Feature extends BaseItem{
+
+    public Feature(){}
+
+    public Feature(Long id, String icon, String description) {
+        super(id, icon, description);
+    }
+
 }

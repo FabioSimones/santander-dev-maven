@@ -26,6 +26,15 @@ public class User {
 
     public User(){}
 
+    public User(Long id, String name, Account account, Card card, List<Feature> features, List<News> news) {
+        this.id = id;
+        this.name = name;
+        this.account = account;
+        this.card = card;
+        this.features = features;
+        this.news = news;
+    }
+
     public Long getId() {
         return id;
     }

@@ -19,6 +19,12 @@ public class Card {
 
     public Card(){}
 
+    public Card(Long id, String number, BigDecimal limit) {
+        this.id = id;
+        this.number = number;
+        this.limit = limit;
+    }
+
     public Long getId() {
         return id;
     }
